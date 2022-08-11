@@ -43,9 +43,10 @@ const displayNumberGuess = function (number) {
   document.querySelector('.number').textContent = number;
 };
 //
+
 // SCORE
 
-let score = 20;
+let score = 5;
 let highscore = 0;
 
 //
@@ -103,6 +104,7 @@ document.querySelector('.check').addEventListener('click', function () {
 
 document.querySelector('.again').addEventListener('click', function () {
   score = 20;
+  score = 5;
   displayMessage('Start guessing...');
   numberGuess = Math.trunc(Math.random() * 20) + 1;
   document.body.style.backgroundColor = '#222';
