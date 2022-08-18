@@ -35,6 +35,7 @@ main {
 
 .left {
   width: 52rem;
+  /* width: 40%; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -42,6 +43,7 @@ main {
 
 .right {
   width: 52rem;
+  /* width: 100%; */
   font-size: 2rem;
 }
 
@@ -50,7 +52,7 @@ h1 {
   font-size: 4rem;
   text-align: center;
   position: absolute;
-  width: 100%;
+  /* width: 100%; */
   top: 52%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -91,6 +93,7 @@ h1 {
   font-size: 5rem;
   padding: 2.5rem;
   width: 25rem;
+  /* width: 100%; */
   text-align: center;
   display: block;
   margin-bottom: 3rem;
